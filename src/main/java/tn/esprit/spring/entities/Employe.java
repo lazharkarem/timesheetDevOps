@@ -30,6 +30,7 @@ public class Employe implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	
+	
 	private String prenom;
 	
 	private String nom;
